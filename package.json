@@ -1,0 +1,43 @@
+{
+	"name": "superqs",
+	"description": "A powerful querystring parser to use with multidimensional arrays and objects",
+	"version": "0.1.0",
+	"homepage": "https://github.com/chrisenytc/superqs",
+	"author": {
+		"name": "Christopher EnyTC",
+		"email": "chris@enytc.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/chrisenytc/superqs.git"
+	},
+	"bugs": {
+		"url": "https://github.com/chrisenytc/superqs/issues"
+	},
+	"license": "MIT",
+	"main": "lib/superqs",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"scripts": {
+		"test": "make test"
+	},
+	"dependencies": {
+		"sugar": "1.4.1"
+	},
+	"devDependencies": {
+		"chai": "~2.1.2",
+		"mocha": "~2.2.1"
+	},
+	"keywords": [
+		"querystring",
+		"qs",
+		"parser",
+		"stringify",
+		"arrays",
+		"objects",
+		"multidimensional",
+		"tool",
+		"utils"
+	]
+}
