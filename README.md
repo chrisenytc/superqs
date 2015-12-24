@@ -62,7 +62,7 @@ let qs = require('superqs');
 // stringify
 let result = qs.stringify({
 	string: 'value',
-	date: '2015-12-23T23:42:09.248Z',
+	date: new Date(),
 	yes: true,
 	no: false,
 	array: [1,2],
